@@ -5,6 +5,8 @@
 extern "C" {
 #endif
 
+uint16_t encoder_getcounter (uint8_t name);
+void encoder_setcounter (uint8_t name, uint16_t value);
 
 #ifdef __cplusplus
 }
