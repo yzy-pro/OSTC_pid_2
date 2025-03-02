@@ -113,6 +113,8 @@ typedef enum
 
   extern wheel_condition current_wheel[4];
   extern wheel_condition tragrt_wheel[4];
+  extern robot_condition current_robot;
+  extern robot_condition tragrt_robot;
 
 /* USER CODE END Private defines */
 
