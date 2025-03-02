@@ -32,7 +32,14 @@ typedef struct
     float  target_velocity;       //车轮目标速度，单位m/s
     short  PWM_velocity;      //车轮PWM控制速度
 
-}robot_wheel;
+}wheel_condition;
+
+typedef struct
+{
+    float x_velocity;
+    float y_velocity;
+    float yaw_velocity;
+}robot_condition;
 
 #ifdef __cplusplus
 }

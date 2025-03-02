@@ -4,6 +4,10 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
+#include "encoder.h"
+#include "main.h"
+
+
 
 
 #ifdef __cplusplus

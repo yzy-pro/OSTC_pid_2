@@ -32,6 +32,10 @@ extern "C" {
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <sys/_stdint.h>
+#include "motor.h"
+#include "encoder.h"
+#include "mecanum.h"
+#include "robot.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -98,6 +102,18 @@ void Error_Handler(void);
 #define S_ENCODER_TIM htim2
 #define W_ENCODER_TIM htim3
 #define N_ENCODER_TIM htim4
+
+typedef enum
+{
+  E = 0,
+  S = 1,
+  W = 2,
+  N = 3
+}label;
+
+  extern wheel_condition current_wheel[4];
+  extern wheel_condition tragrt_wheel[4];
+
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
