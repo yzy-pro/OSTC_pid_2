@@ -28,25 +28,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 72,
+				"line" : 64,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 68,
+				"line" : 60,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 69,
+				"line" : 61,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 70,
+				"line" : 62,
 				"parent" : 0
 			},
 			{
@@ -70,7 +70,7 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 40,
+				"line" : 49,
 				"parent" : 0
 			},
 			{
@@ -93,7 +93,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O3 -DNDEBUG -fdiagnostics-color=always"
+					"fragment" : "-g -fdiagnostics-color=always"
 				},
 				{
 					"backtrace" : 5,
@@ -125,7 +125,11 @@
 				},
 				{
 					"backtrace" : 8,
-					"fragment" : "-Ofast"
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-g"
 				}
 			],
 			"defines" : 
@@ -187,7 +191,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
 				},
 				{
 					"backtrace" : 5,
@@ -219,7 +223,11 @@
 				},
 				{
 					"backtrace" : 8,
-					"fragment" : "-Ofast"
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-g"
 				}
 			],
 			"defines" : 
@@ -298,7 +306,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O3 -DNDEBUG"
+					"fragment" : "-g"
 				},
 				{
 					"backtrace" : 5,
@@ -338,7 +346,11 @@
 				},
 				{
 					"backtrace" : 8,
-					"fragment" : "-Ofast"
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-g"
 				}
 			],
 			"defines" : 
@@ -392,7 +404,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-O3 -DNDEBUG",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{
@@ -401,7 +413,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=D:/optical/pid_2/cmake-build-release-mingw_stm32_dev/pid_2.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=D:/optical/pid_2/cmake-build-debug/pid_2.map",
 				"role" : "flags"
 			},
 			{
@@ -427,46 +439,6 @@
 			{
 				"backtrace" : 4,
 				"fragment" : "D:/optical/pid_2/STM32F103ZETX_FLASH.ld",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Inc/motor.h",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Inc/encoder.h",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Inc/mecanum.h",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Inc/robot.h",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Src/encoder.cpp",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Src/motor.cpp",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Src/mecanum.cpp",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/Src/robot.cpp",
 				"role" : "flags"
 			}
 		],

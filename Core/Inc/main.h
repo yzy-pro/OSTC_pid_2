@@ -31,7 +31,7 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <sys/_stdint.h>
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -91,7 +91,8 @@ void Error_Handler(void);
 #define S_ENCODER_2_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
-
+#define E_S_MOTOR_TIM htim5
+#define W_N_MOTOR_TIM htim8
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
