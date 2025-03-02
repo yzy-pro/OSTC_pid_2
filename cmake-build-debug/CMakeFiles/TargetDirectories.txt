@@ -1,0 +1,3 @@
+D:/optical/pid_2/cmake-build-debug/CMakeFiles/pid_2.elf.dir
+D:/optical/pid_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/optical/pid_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

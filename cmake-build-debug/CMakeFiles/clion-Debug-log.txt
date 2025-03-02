@@ -1,0 +1,5 @@
+"D:\jb\toolbox\CLion 2024.3.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S D:\optical\pid_2 -B D:\optical\pid_2\cmake-build-debug
+-- Minimal optimization, debug info included
+-- Configuring done (0.0s)
+-- Generating done (0.1s)
+-- Build files have been written to: D:/optical/pid_2/cmake-build-debug
